@@ -56,15 +56,31 @@
 		1740E7DC257EB61B0011D960 /* SleepAppWithCoreML */ = {
 			isa = PBXGroup;
 			children = (
-				1740E7DD257EB61B0011D960 /* AppDelegate.swift */,
-				1740E7DF257EB61B0011D960 /* SceneDelegate.swift */,
+				1740E7F3257EB7B50011D960 /* Storyboards */,
+				1740E7F2257EB67E0011D960 /* Resources */,
 				1740E7E1257EB61B0011D960 /* ViewController.swift */,
-				1740E7E3257EB61B0011D960 /* Main.storyboard */,
-				1740E7E6257EB61C0011D960 /* Assets.xcassets */,
-				1740E7E8257EB61C0011D960 /* LaunchScreen.storyboard */,
-				1740E7EB257EB61C0011D960 /* Info.plist */,
 			);
 			path = SleepAppWithCoreML;
+			sourceTree = "<group>";
+		};
+		1740E7F2257EB67E0011D960 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1740E7E6257EB61C0011D960 /* Assets.xcassets */,
+				1740E7DD257EB61B0011D960 /* AppDelegate.swift */,
+				1740E7DF257EB61B0011D960 /* SceneDelegate.swift */,
+				1740E7EB257EB61C0011D960 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1740E7F3257EB7B50011D960 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1740E7E8257EB61C0011D960 /* LaunchScreen.storyboard */,
+				1740E7E3257EB61B0011D960 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +111,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = NAPPS;
 				TargetAttributes = {
 					1740E7D9257EB61B0011D960 = {
 						CreatedOnToolsVersion = 12.2;
